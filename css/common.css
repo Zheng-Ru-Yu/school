@@ -1,0 +1,409 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Tahoma,Verdana,Arial,宋体;
+	color: #000;
+
+
+ }
+ ol,ul{
+ 	list-style: none;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ 
+
+/***********header开始***********/
+#header{
+	height: 76px;
+}
+#header .wrapper{
+	height: 76px;
+}
+#logo{
+ 	border:0;
+ 	margin-top: 11px;
+}
+
+#nav li{
+	float: left;
+	
+}
+#nav{
+	float: right;
+	line-height: 76px;
+}
+#header .wrapper #nav li a{
+	display: inline-block;
+	width: 90px;
+	height: 36px;
+	font: 12px/36px Tahoma,Verdana,Arial,宋体;
+	color: black;
+	font-weight:bold;
+
+
+}
+#header .wrapper #nav li a:hover{
+		color:red;
+		 }
+/***********header结束***********/
+/***********banner开始***********/
+#banner{
+	margin-bottom: 15px;
+	height: 453px;
+	background: url(../img/banner01_h5vf.jpg) no-repeat 50% 50%;)
+}
+/***********banner结束***********/
+
+
+/*******news开始*********/
+#news{
+	width: 1349px;
+	height: 152px;
+	/*background-color: red;*/
+}
+#news .wrapper{
+	height: 453px;
+	/*background-color: gray;*/
+}
+
+.wrapper-left{
+	width: 640px;
+	height: 135px;
+	/*background:yellow;*/
+	float: left;
+}
+.wrapper-right{
+	width: 400px;
+	height: 137px;
+	/*background:yellow;*/
+	float: right;
+
+}
+#news{
+	padding-top:5px; 
+
+}
+.wrapper-left div{
+	width: 640px;
+	height: 30px;
+
+}
+ .newest{
+	/*display:inline-block;*/
+	float: left;
+	font-size:98%;
+	margin-top:2px; 
+}
+ .more{
+ 	display:block;
+	float:right;
+	width: 100px;
+	height: 30px;
+}
+
+.wrapper-left ul{
+	width:  640px;
+	 height: 90px;
+
+}
+.wrapper-left li{
+		float: left;
+		width: 295px;
+		height: 30px;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	     white-space: nowrap;/*a*/
+	     padding-left: 5px;
+	     line-height: 30px;
+
+}
+
+.wrapper-left img{
+	margin-top:5px;
+}
+.wrapper-right ul{
+	height: 92px;
+	width: 382px;
+	clear: both;
+	 border: 0.5px #000 dotted;
+}
+
+.wrapper-right li{
+	text-align:center;
+	width:  362px;
+	 height:28px;  
+}
+.wrapper-right img{
+	float: left;
+}
+.wrapper-right div{
+	width:400px;
+	height:35px;/*不设置div商务英语串位*/
+}
+#news .link:hover{
+	background: red;
+	color: white;
+}
+
+/*******news结束*********/
+
+
+
+/*******course开始*********/
+#courses{
+	background-color:#F5F5F5;
+}
+#courses .wrapper{
+	height: 451px;
+	
+	
+}
+#courses .divw{
+	height: 146.4px;
+	overflow: hidden;
+	position: relative;
+}
+#courses .divw h2{
+	margin-top: 40px;
+	text-align: center;
+	color: #666;
+	font-size: 30px;
+
+}
+
+#courses .divw h5{
+	/*position: absolute;
+	bottom:15px;
+	left: 44%;*/
+	text-align: center;
+	color: #666;
+	font-size: 18px;
+	margin-top:20px;
+}
+#courses .image li{
+	/*display: inline-block;*/
+	float: left;
+	
+}
+#courses .image div{
+	width: 195px;
+	margin-right:25px; 
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+#courses .image a{
+	
+	color: black;
+	/*background: url(../img/bj_1_03_emta.png);
+*/}
+#courses .image div :hover{
+	color: blue;
+
+}
+#ink:hover{
+	clear: both;
+	background:green;
+	color: white;
+}
+
+/*******course结束*********/
+
+
+
+
+/*******slogan开始*********/
+#slogan{
+	height: 341px;
+	background-color:#6B8E23;
+}
+#slogan .wrapper{
+	height: 341px;
+	overflow: hidden;
+}
+
+.ss{
+	/*margin: 100 auto;？？？margin: 0 auto; 必须设置宽高*/
+	text-align: center;/*给父亲元素设置，里面的内容居中*/
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+
+#slogan .s1{
+	display: inline-block;
+	background-color:white;
+	height: 35px;
+	width: 100px;
+	text-align: center;
+	line-height:35px;
+}
+#slogan .s2{
+	display: inline-block;
+	background-color:yellow;
+	height: 35px;
+	width: 100px;
+	text-align: center;
+	line-height:35px;
+}
+#slogan h2{
+	text-align: center;
+	color:white;
+}
+#slogan h3{
+	text-align: center;
+	color:white;
+	margin-top: 15px;
+	margin-bottom: 28px;
+}
+.Know-us-Content{
+	
+	padding-top: 20px;
+	border-top: solid 1.5px;
+	width: 525px;
+	margin: 0 auto;
+	color: white;
+
+}
+#slogan .link{
+	/*text-align: center;*/
+	border: solid 1px;
+	border-radius: 10px;
+	color:white;
+	margin-top: 18px;
+}
+#slogan .link:hover{
+	clear: both;
+	background:white;
+	color: #000;
+	border: yellow solid 1px;
+}
+
+/*******slogan结束*********/
+
+
+/*******question开始*********/
+
+#question{
+	height: 373px;
+	background-color: rgb(254, 225, 87);
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+#question .wrapper{
+	height: 373px;
+
+}
+.qleft{
+	width: 675px;
+	height: 269px;
+	padding-top: 15px;
+	float: left;
+}
+.qleft h2{
+	float: left;
+
+}
+.qleft .link{
+	float: right;
+
+}
+.qleft .link:hover{
+	background:white;
+	color: #000;
+}
+.qcontiner{
+	clear: both;
+	width: 630px;
+	height: 180px;
+	border: 1px dotted;
+	margin-top:40px;
+	padding: 20px;
+}
+.qcontiner li{
+	margin-top: 20px;
+	margin-left: 10px;
+	border-bottom: dotted 1px;
+}
+.qcontiner li a{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.qright{
+	height: 358px;
+	width: 335px;
+	float: right;
+}
+.qright h2{
+	text-align: center;
+	margin:15px;
+}
+.qinput{
+	height: 301px;
+	width: 335px;
+	margin-top: 15px;
+	border: #000 dotted 1px ;
+}
+
+input{
+	border: none;
+}
+.qinput input{
+	height: 29px;
+	width: 262px;
+}
+.qinput span{
+	display:block;
+	text-align: center;
+	margin-top: 5px;
+}
+.qinput .special{
+	width: 82px;
+	height: 24px;
+	margin-top:15px;
+}
+.qinput .sspecial{
+	width: 100px;
+	height:25px;
+	margin-top:20px;
+	background-color: rgb(102, 102, 102);
+	color: white;
+	text-decoration: none;
+}
+/*******question结束*********/
+
+/*******footer开始*********/
+
+#footer{
+	height: 135px;
+	background-color: rgb(102, 102, 102);
+	color: white;
+	padding-top: 20px;
+
+}
+#footer div{
+	margin-top: 20px;
+
+}
+
+/*******footer结束*********/
+
+.wrapper{
+	width: 1100px;
+	margin: 0 auto;
+	}
+	/*background-color: gray;*/
+
+
+/*.link{
+	display: block;
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	/*font: 12px/1.8 Tahoma,Verdana,Arial,宋体;*/
+}

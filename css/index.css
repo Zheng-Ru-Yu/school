@@ -1,0 +1,18 @@
+/*******banner开始*********什么在index里*/
+#news .wrapper{
+	height: 453px;
+}
+
+
+/*******banner结束*********/
+.link{
+	display: block;
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	color: #000;
+	/*font: 12px/1.8 Tahoma,Verdana,Arial,宋体;*/
+}
